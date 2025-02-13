@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaptopCli", "LaptopCli\LaptopCli.csproj", "{FB3230B1-81A4-462E-BD7A-BB8D35C4E832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaptopGui", "LaptopGui\LaptopGui.csproj", "{E8635236-E25A-4618-AEA0-9224C65E8233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB3230B1-81A4-462E-BD7A-BB8D35C4E832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3230B1-81A4-462E-BD7A-BB8D35C4E832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3230B1-81A4-462E-BD7A-BB8D35C4E832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3230B1-81A4-462E-BD7A-BB8D35C4E832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8635236-E25A-4618-AEA0-9224C65E8233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8635236-E25A-4618-AEA0-9224C65E8233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8635236-E25A-4618-AEA0-9224C65E8233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8635236-E25A-4618-AEA0-9224C65E8233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6D9311B-3915-4328-A7D9-5A19C11E1146}
+	EndGlobalSection
+EndGlobal
