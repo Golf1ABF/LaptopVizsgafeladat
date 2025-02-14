@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LaptopCli
 {
-    internal class Manufacturer
+    public class Manufacturer
     {
         public int ManufacturerCode { get; set; }
         public string ManufacturerName { get; set; }

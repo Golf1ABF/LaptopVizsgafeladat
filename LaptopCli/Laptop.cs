@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LaptopCli
 {
-    internal class Laptop
+    public class Laptop
     {
         public Category Category{ get; set; }
         public string CPU { get; set; }
@@ -35,7 +35,7 @@ namespace LaptopCli
 
         public override string ToString()
         {
-            return $"{Category.CategoryName} | {Model} ({CPU}) | {OS}";
+            return $"{Manufacturer.ManufacturerName} {Model} {CPU}";
         }
 
     }

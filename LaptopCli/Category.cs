@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LaptopCli
 {
-    internal class Category
+    public class Category
     {
         public int CategoryCode { get; set; }
         public string CategoryName { get; set; }

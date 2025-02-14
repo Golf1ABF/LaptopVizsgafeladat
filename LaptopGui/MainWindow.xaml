@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LaptopGui"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Laptop ajánlat" Height="500" Width="800">
     <Grid>
+        <Label x:Name="gyartoLbl" Content="" HorizontalAlignment="Left" Margin="26,21,0,0" VerticalAlignment="Top" Width="256"/>
+        <Label Content="Konfigurációk" HorizontalAlignment="Left" Margin="167,52,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ListBox x:Name="konfigLbx" Margin="24,83,400,15" SelectionChanged="konfigLbx_SelectionChanged"/>
+        <Label Content="Részletes adatok" HorizontalAlignment="Left" Margin="584,52,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ListBox x:Name="adatLbx" Margin="523,83,51,82"/>
+        <Button x:Name="kilepesBtn" Content="Kilépés" HorizontalAlignment="Left" Margin="570,418,0,0" VerticalAlignment="Top" Width="132" Height="29" IsEnabled="False" Click="kilepesBtn_Click"/>
 
     </Grid>
 </Window>

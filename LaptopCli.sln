@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaptopCli", "LaptopCli\LaptopCli.csproj", "{FB3230B1-81A4-462E-BD7A-BB8D35C4E832}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaptopCli", "LaptopCli\LaptopCli.csproj", "{FB3230B1-81A4-462E-BD7A-BB8D35C4E832}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaptopGui", "LaptopGui\LaptopGui.csproj", "{E8635236-E25A-4618-AEA0-9224C65E8233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaptopGui", "LaptopGui\LaptopGui.csproj", "{E8635236-E25A-4618-AEA0-9224C65E8233}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB3230B1-81A4-462E-BD7A-BB8D35C4E832} = {FB3230B1-81A4-462E-BD7A-BB8D35C4E832}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
